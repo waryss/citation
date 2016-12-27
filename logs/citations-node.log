@@ -1,0 +1,205 @@
+2016-12-27T20:29:55.587Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T20:48:02.079Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T20:52:40.855Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:13:37.688Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:14:09.647Z - info: [res] 9ms /citations/5861b15cff7c368ef8e42fe1
+2016-12-27T21:15:04.607Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:15:09.761Z - debug: pagined citation listing /citations/5861b15cff7c368ef8e42fe1
+2016-12-27T21:15:09.780Z - info: [res] 22ms /citations/5861b15cff7c368ef8e42fe1
+2016-12-27T21:15:29.846Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:15:34.120Z - debug: pagined citation listing /citations/5861b15cff7c368ef8e42fe1
+2016-12-27T21:15:34.195Z - debug: Appel au webservice OK /citations/5861b15cff7c368ef8e42fe1 {"_id":"5861b15cff7c368ef8e42fe1","creationDate":"2016-12-27T21:15:34.186Z"}
+2016-12-27T21:15:34.204Z - info: [res] 87ms /citations/5861b15cff7c368ef8e42fe1
+2016-12-27T21:18:15.804Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:18:15.813Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:18:15.811Z"}
+2016-12-27T21:18:15.816Z - info: [res] 12ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:18:33.909Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8ad
+2016-12-27T21:18:33.914Z - error: Appel au webservice KO /citations/5862da87b138b51b5e50bf8ad {"returnCode":"An error occured","message":"Cast to ObjectId failed for value \"5862da87b138b51b5e50bf8ad\" at path \"_id\" for model \"Citation\"","severity":"ERROR"}
+2016-12-27T21:18:33.930Z - error: uncaughtException: Cannot read property 'returnCode' of undefined date=Tue Dec 27 2016 22:18:33 GMT+0100 (CET), pid=6188, uid=1000, gid=1000, cwd=/home/waryss/repo/citations, execPath=/usr/bin/nodejs, version=v4.2.6, argv=[/usr/bin/nodejs, /home/waryss/repo/citations/app/server.js], rss=52412416, heapTotal=34202976, heapUsed=19115968, loadavg=[1.79931640625, 1.1669921875, 1.1357421875], uptime=5011, trace=[column=14, file=/home/waryss/repo/citations/app/helpers/ResponseCallback.js, function=onSuccess, line=25, method=null, native=false, column=13, file=/home/waryss/repo/citations/app/helpers/ResponseCallback.js, function=null, line=66, method=null, native=false, column=9, file=/home/waryss/repo/citations/app/services/citations.js, function=null, line=23, method=null, native=false, column=16, file=/home/waryss/repo/citations/node_modules/mongoose/lib/model.js, function=null, line=3408, method=null, native=false, column=48, file=/home/waryss/repo/citations/node_modules/kareem/index.js, function=null, line=207, method=null, native=false, column=16, file=/home/waryss/repo/citations/node_modules/kareem/index.js, function=null, line=127, method=null, native=false, column=9, file=node.js, function=nextTickCallbackWith0Args, line=419, method=null, native=false, column=13, file=node.js, function=process._tickCallback, line=348, method=_tickCallback, native=false], stack=[TypeError: Cannot read property 'returnCode' of undefined,     at onSuccess (/home/waryss/repo/citations/app/helpers/ResponseCallback.js:25:14),     at /home/waryss/repo/citations/app/helpers/ResponseCallback.js:66:13,     at /home/waryss/repo/citations/app/services/citations.js:23:9,     at /home/waryss/repo/citations/node_modules/mongoose/lib/model.js:3408:16,     at /home/waryss/repo/citations/node_modules/kareem/index.js:207:48,     at /home/waryss/repo/citations/node_modules/kareem/index.js:127:16,     at nextTickCallbackWith0Args (node.js:419:9),     at process._tickCallback (node.js:348:13)]
+2016-12-27T21:18:33.931Z - info: [res] 22ms /citations/5862da87b138b51b5e50bf8ad
+2016-12-27T21:19:49.487Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:19:55.876Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8ad
+2016-12-27T21:22:28.016Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:22:34.751Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8ad
+2016-12-27T21:22:34.772Z - error: Appel au webservice KO /citations/5862da87b138b51b5e50bf8ad {"returnCode":"An error occured","message":"Cast to ObjectId failed for value \"5862da87b138b51b5e50bf8ad\" at path \"_id\" for model \"Citation\"","severity":"ERROR"}
+2016-12-27T21:22:34.785Z - info: [res] 38ms /citations/5862da87b138b51b5e50bf8ad
+2016-12-27T21:22:40.960Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:22:40.983Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:22:40.979Z"}
+2016-12-27T21:22:40.986Z - info: [res] 26ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:26:39.263Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:26:45.357Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:26:45.384Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:26:45.378Z"}}
+2016-12-27T21:26:45.390Z - info: [res] 35ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:28.903Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:28.912Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:28:28.910Z"}}
+2016-12-27T21:28:28.915Z - info: [res] 13ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:29.994Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:29.998Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:28:29.997Z"}}
+2016-12-27T21:28:30.001Z - info: [res] 6ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:30.166Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:30.168Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:28:30.167Z"}}
+2016-12-27T21:28:30.168Z - info: [res] 2ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:30.633Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:30.638Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:28:30.637Z"}}
+2016-12-27T21:28:30.639Z - info: [res] 5ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:30.811Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:30.814Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:28:30.813Z"}}
+2016-12-27T21:28:30.815Z - info: [res] 4ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:30.967Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:30.970Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:28:30.969Z"}}
+2016-12-27T21:28:30.973Z - info: [res] 5ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:31.135Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:31.140Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:28:31.138Z"}}
+2016-12-27T21:28:31.141Z - info: [res] 7ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:51.438Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:28:51.444Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:28:51.443Z"}}
+2016-12-27T21:28:51.445Z - info: [res] 7ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:29:20.367Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:29:20.370Z - error: Appel au webservice KO /citations/5862da87b138b51b5e50bf8az {"returnCode":"An error occured","message":"Cast to ObjectId failed for value \"5862da87b138b51b5e50bf8az\" at path \"_id\" for model \"Citation\"","severity":"ERROR"}
+2016-12-27T21:29:20.371Z - info: [res] 3ms /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:30:43.391Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:30:47.615Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:30:47.635Z - error: Appel au webservice KO /citations/5862da87b138b51b5e50bf8az {"returnCode":"An error occured","message":"Can not find citation with id 5862da87b138b51b5e50bf8az","severity":"ERROR"}
+2016-12-27T21:30:47.647Z - info: [res] 36ms /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:31:37.553Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:31:50.336Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:31:50.351Z - error: Appel au webservice KO /citations/5862da87b138b51b5e50bf8az {"returnCode":"An error occured","message":"Can not find citation with id 5862da87b138b51b5e50bf8az","severity":"ERROR"}
+2016-12-27T21:31:50.358Z - info: [res] 25ms /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:31:58.769Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:32:01.740Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:32:01.746Z - error: Appel au webservice KO /citations/5862da87b138b51b5e50bf8az {"returnCode":"An error occured","message":"Can not find citation with id 5862da87b138b51b5e50bf8az","severity":"ERROR"}
+2016-12-27T21:32:01.750Z - info: [res] 11ms /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:38:19.462Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:38:29.661Z - debug: pagined citation listing /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:38:29.677Z - error: uncaughtException: Converting circular structure to JSON date=Tue Dec 27 2016 22:38:29 GMT+0100 (CET), pid=7060, uid=1000, gid=1000, cwd=/home/waryss/repo/citations, execPath=/usr/bin/nodejs, version=v4.2.6, argv=[/usr/bin/nodejs, /home/waryss/repo/citations/app/server.js], rss=54026240, heapTotal=33183072, heapUsed=17642976, loadavg=[1.466796875, 1.3896484375, 1.2802734375], uptime=6207, trace=[column=null, file=null, function=Object.stringify, line=null, method=stringify, native=true, column=70, file=/home/waryss/repo/citations/app/helpers/ResponseCallback.js, function=onError, line=54, method=null, native=false, column=13, file=/home/waryss/repo/citations/app/helpers/ResponseCallback.js, function=null, line=65, method=null, native=false, column=13, file=/home/waryss/repo/citations/app/services/citations.js, function=null, line=23, method=null, native=false, column=16, file=/home/waryss/repo/citations/node_modules/mongoose/lib/model.js, function=null, line=3408, method=null, native=false, column=48, file=/home/waryss/repo/citations/node_modules/kareem/index.js, function=null, line=207, method=null, native=false, column=16, file=/home/waryss/repo/citations/node_modules/kareem/index.js, function=null, line=127, method=null, native=false, column=9, file=node.js, function=nextTickCallbackWith0Args, line=419, method=null, native=false, column=13, file=node.js, function=process._tickCallback, line=348, method=_tickCallback, native=false], stack=[TypeError: Converting circular structure to JSON,     at Object.stringify (native),     at onError (/home/waryss/repo/citations/app/helpers/ResponseCallback.js:54:70),     at /home/waryss/repo/citations/app/helpers/ResponseCallback.js:65:13,     at /home/waryss/repo/citations/app/services/citations.js:23:13,     at /home/waryss/repo/citations/node_modules/mongoose/lib/model.js:3408:16,     at /home/waryss/repo/citations/node_modules/kareem/index.js:207:48,     at /home/waryss/repo/citations/node_modules/kareem/index.js:127:16,     at nextTickCallbackWith0Args (node.js:419:9),     at process._tickCallback (node.js:348:13)]
+2016-12-27T21:39:24.883Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:39:30.875Z - debug: find citation by id /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:39:30.908Z - error: uncaughtException: Converting circular structure to JSON date=Tue Dec 27 2016 22:39:30 GMT+0100 (CET), pid=7102, uid=1000, gid=1000, cwd=/home/waryss/repo/citations, execPath=/usr/bin/nodejs, version=v4.2.6, argv=[/usr/bin/nodejs, /home/waryss/repo/citations/app/server.js], rss=54296576, heapTotal=33183072, heapUsed=17581840, loadavg=[2.00537109375, 1.48583984375, 1.3173828125], uptime=6268, trace=[column=null, file=null, function=Object.stringify, line=null, method=stringify, native=true, column=70, file=/home/waryss/repo/citations/app/helpers/ResponseCallback.js, function=onError, line=54, method=null, native=false, column=13, file=/home/waryss/repo/citations/app/helpers/ResponseCallback.js, function=null, line=65, method=null, native=false, column=13, file=/home/waryss/repo/citations/app/services/citations.js, function=null, line=23, method=null, native=false, column=16, file=/home/waryss/repo/citations/node_modules/mongoose/lib/model.js, function=null, line=3408, method=null, native=false, column=48, file=/home/waryss/repo/citations/node_modules/kareem/index.js, function=null, line=207, method=null, native=false, column=16, file=/home/waryss/repo/citations/node_modules/kareem/index.js, function=null, line=127, method=null, native=false, column=9, file=node.js, function=nextTickCallbackWith0Args, line=419, method=null, native=false, column=13, file=node.js, function=process._tickCallback, line=348, method=_tickCallback, native=false], stack=[TypeError: Converting circular structure to JSON,     at Object.stringify (native),     at onError (/home/waryss/repo/citations/app/helpers/ResponseCallback.js:54:70),     at /home/waryss/repo/citations/app/helpers/ResponseCallback.js:65:13,     at /home/waryss/repo/citations/app/services/citations.js:23:13,     at /home/waryss/repo/citations/node_modules/mongoose/lib/model.js:3408:16,     at /home/waryss/repo/citations/node_modules/kareem/index.js:207:48,     at /home/waryss/repo/citations/node_modules/kareem/index.js:127:16,     at nextTickCallbackWith0Args (node.js:419:9),     at process._tickCallback (node.js:348:13)]
+2016-12-27T21:40:16.155Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:40:19.605Z - debug: find citation by id /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:40:19.611Z - error: Appel au webservice KO /citations/5862da87b138b51b5e50bf8az {"message":"Can not find citation with id 5862da87b138b51b5e50bf8az","name":"CastError","stringValue":"\"5862da87b138b51b5e50bf8az\"","kind":"ObjectId","value":"5862da87b138b51b5e50bf8az","path":"_id","returnCode":"UNKNOWN_CITATION_ID","severity":"ERROR"}
+2016-12-27T21:40:19.616Z - info: [res] 12ms /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:43:03.384Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:43:13.467Z - debug: find citation by id /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:43:13.487Z - error: Appel au webservice KO /citations/5862da87b138b51b5e50bf8az {"returnCode":"An error occured","message":"Can not find citation with id 5862da87b138b51b5e50bf8az","severity":"ERROR"}
+2016-12-27T21:43:13.502Z - info: [res] 39ms /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:44:02.124Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:44:07.803Z - debug: find citation by id /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:44:07.810Z - error: Appel au webservice KO /citations/5862da87b138b51b5e50bf8az {"returnCode":"UNKNOWN_CITATION_ID","message":"Can not find citation with id 5862da87b138b51b5e50bf8az","severity":"ERROR"}
+2016-12-27T21:44:07.816Z - info: [res] 15ms /citations/5862da87b138b51b5e50bf8az
+2016-12-27T21:44:20.627Z - debug: find citation by id /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:44:20.638Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:44:20.635Z"}}
+2016-12-27T21:44:20.640Z - info: [res] 14ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:46:58.695Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:47:01.888Z - debug: find citation by id /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:47:01.910Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:47:01.905Z"}}
+2016-12-27T21:47:01.915Z - info: [res] 30ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T21:47:05.583Z - debug: find all citations /citations
+2016-12-27T21:47:05.594Z - info: [res] 12ms /citations
+2016-12-27T21:47:22.045Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:47:25.500Z - debug: find all citations /citations
+2016-12-27T21:47:25.509Z - info: [res] 10ms /citations
+2016-12-27T21:47:41.683Z - debug: find all citations /citations
+2016-12-27T21:47:41.685Z - info: [res] 2ms /citations
+2016-12-27T21:47:45.501Z - debug: find all citations /citations
+2016-12-27T21:47:45.503Z - info: [res] 2ms /citations
+2016-12-27T21:47:49.866Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T21:47:52.800Z - debug: find all citations /citations
+2016-12-27T21:47:52.819Z - debug: Appel au webservice OK /citations {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":[{"_id":"5861b15cff7c368ef8e42fe1","id":"the first one","creationDate":"2016-12-27T21:47:52.813Z"},{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T21:47:52.816Z"}]}
+2016-12-27T21:47:52.824Z - info: [res] 26ms /citations
+2016-12-27T22:08:23.628Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T22:10:06.416Z - debug: Add citation /citations
+2016-12-27T22:10:06.430Z - info: [res] 16ms /citations
+2016-12-27T22:10:59.436Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T22:11:04.639Z - debug: Add citation /citations
+2016-12-27T22:11:56.099Z - info: [res] 51459ms /citations
+2016-12-27T22:11:57.321Z - error: uncaughtException: connection timeout date=Tue Dec 27 2016 23:11:57 GMT+0100 (CET), pid=8094, uid=1000, gid=1000, cwd=/home/waryss/repo/citations, execPath=/usr/bin/nodejs, version=v4.2.6, argv=[/usr/bin/nodejs, /home/waryss/repo/citations/app/server.js], rss=70533120, heapTotal=41378400, heapUsed=30825280, loadavg=[1.158203125, 1.15234375, 1.18603515625], uptime=8215, trace=[column=17, file=/home/waryss/repo/citations/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js, function=, line=169, method=null, native=false, column=13, file=events.js, function=emitTwo, line=87, method=null, native=false, column=7, file=events.js, function=emit, line=172, method=null, native=false, column=14, file=/home/waryss/repo/citations/node_modules/mongodb/lib/db.js, function=listener, line=1786, method=null, native=false, column=13, file=events.js, function=emitOne, line=77, method=null, native=false, column=7, file=events.js, function=emit, line=169, method=null, native=false, column=14, file=/home/waryss/repo/citations/node_modules/mongodb/lib/server.js, function=Server.connect.errorHandler, line=274, method=connect.errorHandler, native=false, column=13, file=events.js, function=emitOne, line=77, method=null, native=false, column=7, file=events.js, function=emit, line=169, method=null, native=false, column=12, file=/home/waryss/repo/citations/node_modules/mongodb-core/lib/topologies/server.js, function=eventHandler, line=334, method=null, native=false, column=13, file=events.js, function=emitOne, line=77, method=null, native=false, column=7, file=events.js, function=emit, line=169, method=null, native=false, column=12, file=/home/waryss/repo/citations/node_modules/mongodb-core/lib/connection/pool.js, function=, line=270, method=null, native=false, column=16, file=events.js, function=g, line=260, method=null, native=false, column=13, file=events.js, function=emitTwo, line=87, method=null, native=false, column=7, file=events.js, function=emit, line=172, method=null, native=false], stack=[Error: connection timeout,     at null.<anonymous> (/home/waryss/repo/citations/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:169:17),     at emitTwo (events.js:87:13),     at emit (events.js:172:7),     at listener (/home/waryss/repo/citations/node_modules/mongodb/lib/db.js:1786:14),     at emitOne (events.js:77:13),     at emit (events.js:169:7),     at Server.connect.errorHandler (/home/waryss/repo/citations/node_modules/mongodb/lib/server.js:274:14),     at emitOne (events.js:77:13),     at emit (events.js:169:7),     at eventHandler (/home/waryss/repo/citations/node_modules/mongodb-core/lib/topologies/server.js:334:12),     at emitOne (events.js:77:13),     at emit (events.js:169:7),     at null.<anonymous> (/home/waryss/repo/citations/node_modules/mongodb-core/lib/connection/pool.js:270:12),     at g (events.js:260:16),     at emitTwo (events.js:87:13),     at emit (events.js:172:7)]
+2016-12-27T22:15:25.574Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T22:15:30.032Z - debug: Add citation /citations
+2016-12-27T22:15:30.038Z - info: [res] 7ms /citations
+2016-12-27T22:15:46.676Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T22:15:49.503Z - debug: Add citation /citations
+2016-12-27T22:15:49.518Z - info: [res] 16ms /citations
+2016-12-27T22:16:00.696Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T22:16:03.599Z - debug: Add citation /citations
+2016-12-27T22:16:03.622Z - debug: Appel au webservice OK /citations {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"__v":0,"author":"String","source":"String","text":"String","_id":"5862e8230a0614203c159e4d","creationDate":"2016-12-27T22:16:03.600Z"}}
+2016-12-27T22:16:03.627Z - info: [res] 30ms /citations
+2016-12-27T22:18:01.101Z - debug: Delete citation /citations/5862e8230a0614203c159e4d
+2016-12-27T22:18:01.127Z - debug: Appel au webservice OK /citations/5862e8230a0614203c159e4d {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"n":1,"ok":1}}
+2016-12-27T22:18:01.129Z - info: [res] 30ms /citations/5862e8230a0614203c159e4d
+2016-12-27T22:33:11.564Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T22:33:16.139Z - debug: find citation by id /citations/5862da87b138b51b5e50bf8a
+2016-12-27T22:33:16.156Z - info: [res] 21ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T22:34:42.566Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T22:34:44.682Z - debug: find citation by id /citations/5862da87b138b51b5e50bf8a
+2016-12-27T22:34:44.731Z - debug: Appel au webservice OK /citations/5862da87b138b51b5e50bf8a {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T22:34:44.724Z"}}
+2016-12-27T22:34:44.739Z - info: [res] 61ms /citations/5862da87b138b51b5e50bf8a
+2016-12-27T22:36:20.011Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T22:36:24.030Z - debug: find citation by id /citations/5862da87b138b51b5e50bf8as
+2016-12-27T22:36:24.040Z - error: Appel au webservice KO /citations/5862da87b138b51b5e50bf8as {"returnCode":"UNKNOWN_CITATION_ID","message":"Can not find citation with id 5862da87b138b51b5e50bf8as","severity":"ERROR"}
+2016-12-27T22:36:24.045Z - info: [res] 18ms /citations/5862da87b138b51b5e50bf8as
+2016-12-27T22:36:27.867Z - debug: find all citations /citations
+2016-12-27T22:36:27.918Z - debug: Appel au webservice OK /citations {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":[{"_id":"5861b15cff7c368ef8e42fe1","id":"the first one","creationDate":"2016-12-27T22:36:27.904Z"},{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T22:36:27.912Z"}]}
+2016-12-27T22:36:27.922Z - info: [res] 56ms /citations
+2016-12-27T22:36:57.686Z - debug: find all citations /citations
+2016-12-27T22:36:57.693Z - debug: Appel au webservice OK /citations {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":[{"_id":"5861b15cff7c368ef8e42fe1","id":"the first one","creationDate":"2016-12-27T22:36:57.692Z"},{"_id":"5862da87b138b51b5e50bf8a","author":"Jude","text":"C'est ce qu'il a dit","source":"Quelque part","creationDate":"2016-12-27T22:36:57.693Z"}]}
+2016-12-27T22:36:57.695Z - info: [res] 9ms /citations
+2016-12-27T22:55:56.596Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T22:56:20.338Z - info: [res] 4ms /citations/5862e8230a0614203c159e4d
+2016-12-27T22:56:28.658Z - debug: Add citation /citations
+2016-12-27T22:56:28.714Z - debug: Appel au webservice OK /citations {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"__v":0,"author":"String","source":"String","text":"String","_id":"5862f19cd2b16823d6f963b3","creationDate":"2016-12-27T22:56:28.662Z"}}
+2016-12-27T22:56:28.721Z - info: [res] 64ms /citations
+2016-12-27T22:57:02.654Z - debug: Update citation /citations/5862f19cd2b16823d6f963b3
+2016-12-27T22:57:02.671Z - info: [res] 18ms /citations/5862f19cd2b16823d6f963b3
+2016-12-27T23:00:51.571Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T23:01:00.099Z - info: [res] 3ms /citations/5862f19cd2b16823d6f963b3
+2016-12-27T23:01:04.004Z - debug: Add citation /citations
+2016-12-27T23:01:04.031Z - debug: Appel au webservice OK /citations {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"__v":0,"author":"String3","source":"String","text":"String","_id":"5862f2b0c6db4e246c57f359","creationDate":"2016-12-27T23:01:04.005Z"}}
+2016-12-27T23:01:04.034Z - info: [res] 31ms /citations
+2016-12-27T23:04:40.362Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T23:05:01.932Z - debug: Update citation /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:05:01.951Z - info: [res] 20ms /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:06:24.349Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T23:06:43.396Z - debug: Update citation /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:06:43.413Z - error: Appel au webservice KO /citations/5862f2b0c6db4e246c57f359 {"returnCode":"UNKNOWN_CITATION_ID","message":"Can not find citation with id 5862f2b0c6db4e246c57f359","severity":"ERROR"}
+2016-12-27T23:06:43.417Z - info: [res] 22ms /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:07:52.663Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T23:07:57.258Z - debug: Update citation /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:07:57.276Z - error: Appel au webservice KO /citations/5862f2b0c6db4e246c57f359 {"returnCode":"UNKNOWN_CITATION_ID","message":"Can not find citation with id 5862f2b0c6db4e246c57f359","severity":"ERROR"}
+2016-12-27T23:07:57.281Z - info: [res] 24ms /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:08:58.188Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T23:09:03.834Z - debug: Update citation /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:09:03.854Z - error:  MongoError: E11000 duplicate key error collection: citations.citations index: _id_ dup key: { : ObjectId('5862f2b0c6db4e246c57f359') }
+    at Function.MongoError.create (/home/waryss/repo/citations/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/waryss/repo/citations/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/waryss/repo/citations/node_modules/mongodb/lib/collection.js:657:23
+    at handleCallback (/home/waryss/repo/citations/node_modules/mongodb/lib/utils.js:95:56)
+    at /home/waryss/repo/citations/node_modules/mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/home/waryss/repo/citations/node_modules/mongodb/lib/utils.js:95:56)
+    at resultHandler (/home/waryss/repo/citations/node_modules/mongodb/lib/bulk/unordered.js:413:5)
+    at /home/waryss/repo/citations/node_modules/mongodb-core/lib/connection/pool.js:455:18
+    at nextTickCallbackWith0Args (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+2016-12-27T23:09:03.855Z - error: Appel au webservice KO /citations/5862f2b0c6db4e246c57f359 {"returnCode":"UNKNOWN_CITATION_ID","message":"Can not find citation with id 5862f2b0c6db4e246c57f359","severity":"ERROR"}
+2016-12-27T23:09:03.860Z - info: [res] 30ms /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:09:26.335Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T23:09:31.197Z - debug: Update citation /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:09:31.215Z - error:  MongoError: After applying the update to the document {_id: ObjectId('5861b15cff7c368ef8e42fe1') , ...}, the (immutable) field '_id' was found to have been altered to _id: ObjectId('5862f2b0c6db4e246c57f359')
+    at Function.MongoError.create (/home/waryss/repo/citations/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/waryss/repo/citations/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/waryss/repo/citations/node_modules/mongodb/lib/collection.js:1048:67
+    at /home/waryss/repo/citations/node_modules/mongodb-core/lib/connection/pool.js:455:18
+    at nextTickCallbackWith0Args (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+2016-12-27T23:09:31.216Z - error: Appel au webservice KO /citations/5862f2b0c6db4e246c57f359 {"returnCode":"UNKNOWN_CITATION_ID","message":"Can not find citation with id 5862f2b0c6db4e246c57f359","severity":"ERROR"}
+2016-12-27T23:09:31.220Z - info: [res] 25ms /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:12:40.468Z - info: Démarrage du serveur sur le port 8888
+2016-12-27T23:12:44.545Z - debug: Update citation /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:12:44.557Z - debug: Appel au webservice OK /citations/5862f2b0c6db4e246c57f359 {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"n":1,"nModified":1,"ok":1}}
+2016-12-27T23:12:44.563Z - info: [res] 20ms /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:13:40.536Z - debug: Update citation /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:13:40.543Z - debug: Appel au webservice OK /citations/5862f2b0c6db4e246c57f359 {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"n":1,"nModified":1,"ok":1}}
+2016-12-27T23:13:40.546Z - info: [res] 11ms /citations/5862f2b0c6db4e246c57f359
+2016-12-27T23:16:31.409Z - debug: Add citation /citations
+2016-12-27T23:16:31.428Z - debug: Appel au webservice OK /citations {"returnCode":"SUCCESS","message":"Process successfully completed","severity":"SUCCESS","data":{"__v":0,"source":"String2","text":"ttt2","_id":"5862f64f9e1b7325c879f3ac","creationDate":"2016-12-27T23:16:31.411Z"}}
+2016-12-27T23:16:31.428Z - info: [res] 19ms /citations

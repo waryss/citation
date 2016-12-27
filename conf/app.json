@@ -1,0 +1,12 @@
+{
+  "port": "8888",
+  "logs": {
+    "directory": "logs",
+    "filename": "citations-node.log",
+    "level": "debug",
+    "file": true
+  },
+  "mongodb": {
+    "url": "mongodb://localhost/citations"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "citations",
+  "version": "1.0.0",
+  "description": "application permettant de gérer ses citations préférées",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "citations"
+  ],
+  "author": "waryss",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.5",
+    "winston": "^2.3.0"
+  }
+}
